@@ -1,0 +1,6 @@
+[package]
+name = "rpeek"
+version = "0.1.0"
+authors = ["aletheist <aletheist@users.noreply.github.com>"]
+
+[dependencies]
