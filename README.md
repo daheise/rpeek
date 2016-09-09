@@ -1,4 +1,6 @@
 # rpeek
+[![Build Status](https://travis-ci.org/daheise/rpeek.svg?branch=master)](https://travis-ci.org/daheise/rpeek)
+
 A library for creating fast recursive-descent parsers.
 
 This library is based on the [SPSPS][spsps] library, which provides a simple
