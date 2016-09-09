@@ -1,7 +1,7 @@
 use std::path::Path;
 use std::fs::File;
 
-struct SourceText {
+pub struct SourceText {
     at_eof: bool,
     eof_count: usize,
     name: String,
@@ -10,7 +10,7 @@ struct SourceText {
     stream: File,
 }
 
-trait Parser{
+pub trait Parser{
     fn new(path: &Path) -> Self;
     //fn consume(&self) -> Result<char, &'static str>;
     //fn consume_n(&self, n: usize) ->  Result<&str, &'static str>;
